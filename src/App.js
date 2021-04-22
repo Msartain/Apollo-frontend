@@ -1,10 +1,10 @@
 import "./styles.css";
-import Nav from "./components/Nav";
+import PageLayout from "./PageLayout";
 
 export default function App() {
   return (
     <div className="App">
-      <Nav />
+      <PageLayout />
     </div>
   );
 }
